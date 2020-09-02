@@ -17,7 +17,7 @@ echo -e "${Gcyan}
 | |_| |>  <| | | | | | | |  | |_) | (__ 
  \___//_/\_\_| |_| |_|_|_|  | .__/ \___|
                             | |         
-                            |_|@mehedi1194"
+                            |_|@remonsec"
 echo -e "${STOP}"
 
 echo " "
@@ -141,7 +141,7 @@ echo -e "${PINK}[*] Sended XMLRPC report of   $i ${STOP}"; } || { echo "<!DOCTYP
     <br>
     <h3>Researcher</h3>
     <p><b>Name: </b>Mehedi Hasan Remon</p>
-    <p><b>Social Handle: </b>@mehedi1194</p>
+    <p><b>Social Handle: </b>@remonsec</p>
 </body>
 </html>" | mailx -a 'Content-Type: text/html' -s " SSRF via xmlrpc.php explotation of CVE-2013-0235" "$2"
 echo " "
