@@ -85,7 +85,7 @@ curl --silent -d "<methodCall><methodName>system.listMethods</methodName><params
     <br>
     <h3>Researcher</h3>
     <p><b>Name: </b>Mehedi Hasan Remon</p>
-    <p><b>Social Handle: </b>@mehedi1194</p>
+    <p><b>Social Handle: </b>@remonsec</p>
 </body>
 </html>" | mailx -a 'Content-Type: text/html' -s " XMLRPC.PHP file publically available leads multiple vulnerability" "$2"
 echo " "
