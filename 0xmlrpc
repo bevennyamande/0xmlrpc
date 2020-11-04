@@ -21,7 +21,7 @@ echo -e "${Gcyan}
 echo -e "${STOP}"
 
 echo " "
-echo -e "${Cyan}[\/] Checking for the requirments"
+echo -e "${Cyan}[\/] Checking for the requirements"
 
 echo " "
 type -P ffuf &>/dev/null && echo -e "${RED}[$] FFUF      YES${STOP}" || echo -e "${RED}[$] FFUF      NO${STOP}"
@@ -39,6 +39,7 @@ cat $1.xmlrpc.tmp | jq | grep "url" | awk -F " " '{print $2}' | awk -F "\"" '{pr
 echo " "
 echo -e "${Cyan}[\/] Removing temporary output file${STOP}"
 rm $1.xmlrpc.tmp
+
 
 echo " "
 echo -e "${Cyan}[\/] Sending report email to $2 ${STOP}"
